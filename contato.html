@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="./imagens/Globe.png" rel="icon">
+  
+</head>
+<body>
+    <div>
+  <!------ BACKGROUND-IMG ------>  
+
+  <img src="./imagens/img.jpg" alt="img portifólio" class="img1">
+</div>
+  <header id="home">
+    <nav> <!------ MENU ------>
+      <ul class="nav-list">
+
+        <li> 
+          <a href="./index.html">HOME</a>
+        </li>
+
+        <li> 
+          <a href="./pessoal.html">PESSOAL</a>
+        </li>
+
+        <li>
+          <a href="./contato.html">CONTATO</a>
+        </li>
+
+      </ul>
+    </nav>  
+<!--------CONTATOS-------->
+<div class="contatos" id="contatos">
+    <h1>CONTATO</h1>
+        <form id="formulario">
+            <h2>NOME:</h2><input placeholder="DIGITE SEU NOME COMPLETO" id="campo_nome" type="text"><br>
+            <h2>EMAIL:</h2><input placeholder="DIGITE SEU EMAIL" id="campo_email" type="text1"><br>
+            <h2>MENSAGEM:</h2><br><textarea placeholder="DIGITE SUA MENSAGEM." id="msg" cols="35" rows="10"></textarea><br>
+            <button type="button" id="btn" onclick="Enviar();">ENVIAR</button>
+        </form>
+  </header>
+  <script src="./script.js" defer></script>
+</body>
+</html>

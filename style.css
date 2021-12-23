@@ -1,0 +1,244 @@
+ /*------RESETANDO OS VALORES DE CSS NA PÁGINA------  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   /*------CORPO HEADER------  */
+body{
+    position:inherit;
+    display: block;
+    background-color:#000000;
+    height: 100%;
+  }   
+header{
+  position:absolute;
+  background-color:#000000;
+  margin-top: 620px;
+
+}
+#home{
+  height:100%;
+  display:block;
+ }
+  
+  /*------IMAGEM HEADER------  */
+   
+  .img1{
+    position: absolute;
+    margin-left: 0px;
+    margin-top:0px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 710px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+ /*----- MENU-----*/
+a{
+  font-size:25px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover{
+color:aqua;
+  transition: all;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+.nav-list{
+  list-style: fixed;
+  display: flex;
+  margin-top:0px;
+}
+
+.nav-list li{
+  display:static;
+  letter-spacing: 3px;
+  margin-left: 100px;
+
+}
+@media (max-width: 850px){
+
+  body{
+    position:static;
+    overflow-x: hidden;
+    position:fixed;
+    margin-top:20px;
+  }
+ 
+  a{
+    color: #fff;
+  }
+  .nav-list li{
+    margin-top: -50;
+    opacity: 0;
+  }
+}
+  
+  /*------ PESSOAL ------*/
+
+  /*REFORMATEI O MENU E HEADER DENTRO DA PAGINA PARA READEQUAÇÃO DO TEXTO*/
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    height: 100px;
+    margin-top:-20px;
+  }
+  header{
+    width: 100%;
+    height: 110vh;
+  }
+  .quem{
+    margin-top:0px;
+    background:#0a0a0a;
+    display: flex;
+    height: 100%;
+  }
+  
+  .textos{
+    color: #ecebec;
+    text-align: left;
+    padding: 50px 5%;
+  }
+  .textos h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size:25px;
+    text-align:center;
+  }
+  .textos h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+  }
+  
+  .textos p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color:#ecebec;
+    
+  }
+  .textos a{
+    font-size: 20px;
+    color:aqua;
+    
+  }
+  /*------CONTATO------*/
+  
+  .contatos{
+    margin-top:0px;
+    background:#0a0a0a;;
+    height: 100%;
+  }
+  
+  .contatos h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 5%;
+    font-size: 25px;
+  }
+  .contatos h2{
+    color: #ffffff;
+    text-align:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px
+  }
+  
+  #campo_nome{
+    
+    background-color:#fafafa;
+    position:absolute;
+    left:95px;
+    margin-top:-32px;
+    width:525px;
+    height:40px;
+  }
+  #campo_email
+  {
+    background-color:#f7f7f7;
+    position:absolute;
+    left:95px;
+    margin-top:-32px;
+    width:525px;
+    height:40px;
+  }
+  #msg{
+    position:absolute;
+    background-color:#ececec;
+    left:95px;
+    margin-top:-10px;
+    width:825px;
+    height:250px;
+  }
+  
+  #btn{
+    left:96px;
+    height:50px;
+    width:130px;
+    background-color:#f8f8f8;
+    margin-top: 230px;
+    position:relative;
+    font-size:large;
+
+  }
+  #btn:hover{
+    background-color:#a7a5a5;
+    transition: all;
+  }
+  #btn a{
+    color:#000000;
+  }
+   /*------ FOOTER ------*/
+
+  #rodape{
+    background-color:#000000;
+    height:60px;
+  }
+  p{
+    text-align: justify;
+    text-indent: 50px;
+    color: #070707;
+  }
+  footer#rodape{
+    clear: both;
+    border-top: 1px solid #000000; 
+    font-size: 16px;
+  }
+  footer#rodape p{
+    margin-top: 20px;
+        text-align: center;
+        color:#ecebec;
+  }
+  footer#rodape a{
+    font-size: 16px;
+    color: aqua;
+  }
+  footer#rodape a:hover{
+    font-size: 16px;
+    color: rgb(66, 10, 196);
+  }
+  /*------FIM------  */
