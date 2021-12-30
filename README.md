@@ -36,16 +36,12 @@ Foi desenvolvido diretamente no código.</p>
 <h3>Sessão Principal:</h3>
 
 
-![Começo](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img.jpg)
-![parte2](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img1.jpg)
-
-<h3>Um simples portfólio:</h3>
-
-![parte2](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar2.PNG)
+![Começo](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img.png)
+![parte2](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img1.png)
 
 <h3>Forms Contato:</h3>
 
-![parte7](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img2.jpgG)
+![parte7](https://github.com/AlexDeSaran/Projeto-Pratico-WEB/blob/main/imagens/img2.png)
 
 ##### Autor do Projeto: Alécio L. Medeiros
 
